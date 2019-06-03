@@ -1,8 +1,134 @@
 {
+  "navbar": {
+    "objective": "Mục đích",
+    "contestant": "Thí sinh",
+    "regulation": "quy định",
+    "prize": "giải thưởng",
+    "agenda": "Lịch trình",
+    "gallery": "thư viện"
+  },
+  "common": {
+    "contestants": "thí sinh",
+    "officials": "cán bộ",
+    "mathematics": "môn toán",
+    "science": "môn khoa học",
+    "duration": "thời lượng",
+    "short_answer": "điền kết quả",
+    "essay": "tự luận",
+    "exploration": "khám phá",
+    "theoretical": "lý thuyết",
+    "experiment": "thực hành",
+    "minutes": "phút",
+    "title": "International Mathematics and Science Olympiad",
+    "hanoi_education_department": "sở giáo dục và đào tạo hà nội"
+  },
   "home": {
-    "title": "Kỳ thi toán quốc tế IMSO",
-    "date": "Ngày 27 - 30 tháng 11 năm 2019",
-    "location": "Hà Nội, Việt Nam"
+    "title": "International Mathematics and Science Olympiad",
+    "date": "ngày 27-30 tháng 11 năm 2019",
+    "location": "hà nội",
+    "objectives": {
+      "title": "mục tiêu",
+      "subtitle": "IMSO 2019 được tổ chức nhằm mục đích mang đến cơ hội",
+      "content": [
+        "Giúp học sinh tiểu học đến từ nhiều quốc gia được phát triển toàn diện năng lực toán và khoa học;",
+        "Tạo ra một môi trường học thuât, khuyến khích đổi mới, phát triển nghiên cứu trong quá trình học tập.",
+        "Tạo ra một mạng lưới hợp tác trong phát triển dạy và học toán học và khoa học với các tổ chức giáo dục quốc tế.",
+        "Tăng cường giao lưu văn hóa quốc tế và tăng cường mối quan hệ giữa giáo viên và học sinh."
+      ]
+    },
+    "contestants_officials": {
+      "title": "thí sinh và cán bộ",
+      "contestants": [
+        "Thí sinh là học sinh lớp V, VI, <strong class='red b'>không vượt quá 13 tuổi trước 26 tháng 11 năm 2019</strong>. Mỗi quốc gia có quyền gửi 12 học sinh, 6 học sinh cho mỗi môn học.",
+        "Các quốc gia đã đăng cai tổ chức IMSO và các quốc gia là thành viên UB điều hành IMSO sẽ có thể gửi tối đa 12 học sinh tham gia môn Toán và 12 học sinh tham gia môn Khoa học."
+      ],
+      "officials": [
+        "Mỗi nước có quyền cử 3 đại biểu chính thức gồm 1 trưởng đoàn và 2 giáo viên.",
+        "Trưởng đoàn phải có khả năng giao tiếp bằng tiếng Anh.",
+        "Giáo viên đi kèm phải nắm vững kiến thức Toán học và Khoa học tiểu học và có khả năng giao tiếp bằng tiếng Anh.",
+        "Giáo viên đi kèm sẽ làm việc cùng Hội đồng thi trong quá trình kiểm duyệt bài thi trên giấy của học sinh và xác định người chiến thắng."
+      ]
+    },
+    "medals_trophies": {
+      "title": "giải thưởng và huy chương",
+      "content": [
+        "Khoảng hai phần ba số thí sinh sẽ được trao tặng huy chương vàng, bạc và đồng theo tỷ lệ 1: 2: 3.",
+        "Giải thưởng đặc biệt sẽ được trao cho các thí sinh có tổng điểm thi cao nhất ở mỗi môn và có điểm thi cao nhất tại các vòng thi Lý thuyết và Khám phá / Thực hành.",
+        "Chứng nhận cảm ơn sẽ được trao cho các thành viên điều hành UB IMSO quốc tế, các thành viên tiểu ban chuyên môn, các trưởng phó đoàn, các giáo viên của các đoàn tham dự IMSO 2019",
+        "Mỗi thí sinh tham gia IMSO 2019 sẽ nhận được giấy chứng nhận tham gia."
+      ]
+    },
+    "regulations": {
+      "title": "quy định",
+      "content": "<p><b>IMSO</b> là một cuộc thi cá nhân. Bài thi bao gồm hai phần cho mỗi môn học.</p><ul><li>Lý thuyết và thực hành đối với môn Toán học;</li><li>Lý thuyết và thực nghiệm vấn đề đối với môn Khoa học;</li></ul><p></p>Các vấn đề được xây dựng dựa trên chương trình giảng dạy tiểu học môn Toán và Khoa học, sách tham khảo và các nguồn tài liệu liên quan khác bao gồm lý luận trí tuệ và sáng tạo."
+    },
+    "proposed_agenda": {
+      "title": "Lịch trình",
+      "timeline": {
+        "time": {
+          "all_day": "Sáng và Chiều",
+          "morning": "Buổi sáng",
+          "afternoon": "Buổi chiều",
+          "night": "Buổi tối",
+          "day1": "Ngày thứ 1 <br/>Thứ 3, 26/11/2019",
+          "day2": "Ngày thứ 2 <br/>Thứ 4, 27/11/2019",
+          "day3": "Ngày thứ 3 <br/>Thứ 5, 28/11/2019",
+          "day4": "Ngày thứ 4 <br/>Thứ 6, 29/11/2019",
+          "day5": "Ngày thứ 5 <br/>Thứ 7, 30/11/2019",
+          "day6": "Ngày thứ 6 <br/>Chủ nhật, 1/12/2019"
+        },
+        "contestant": {
+          "day1": {
+            "content_1": "Đón tiếp"
+          },
+          "day2": {
+            "content_1": "Lễ khai mạc",
+            "content_2": "Họp định hướng"
+          },
+          "day3": {
+            "content_1": "Thi Lý thuyết 1",
+            "content_2": "Thi Lý thuyết 2"
+          },
+          "day4": {
+            "content_1": "Thi thực hành",
+            "content_2": "Nghỉ ngơi",
+            "content_3": "Giao lưu văn hóa"
+          },
+          "day5": {
+            "content_1": "Thăm quan thành phố",
+            "content_2": "Lễ trao giải"
+          },
+          "day6": {
+            "content_1": "Trở về"
+          }
+        },
+        "official": {
+          "day1": {
+            "content_1": "Đón tiếp"
+          },
+          "day2": {
+            "content_1": "Lễ khai mạc",
+            "content_2": "Họp chuyên môn"
+          },
+          "day3": {
+            "content_1": "Thăm quan thành phố",
+            "content_2": "Thăm quan thành phố"
+          },
+          "day4": {
+            "content_1": "Chấm thi - Phản biện",
+            "content_2": "Chấm thi - Phản biện",
+            "content_3": "Cultural Night"
+          },
+          "day5": {
+            "content_1": "Thăm quan thành phố",
+            "content_2": "Lễ trao giải"
+          },
+          "day6": {
+            "content_1": "Trở về"
+          }
+        }
+      }
+    }
   },
   "timer": {
     "day": "ngày",

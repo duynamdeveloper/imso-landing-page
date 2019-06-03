@@ -9,11 +9,13 @@
           <div class="dtc w3 v-mid pa3">
             <a
               href="/"
-              class="dib w3 h3 pa1 grow-large border-box"
+              class="dib w3 h3 pa1 border-box"
             >
               <img
                 class="link white-90 hover-white"
-                src="imso_logo_white_3x5.svg"
+                src="/imso_logo_white.png"
+                alt="IMSO 2019 Logo"
+                title="IMSO 2019"
               />
               <!-- <title>skull icon</title>
                 <path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path> -->
@@ -31,11 +33,11 @@
           />
           <h1 class="f2 f1-l fw8 ttu white mb0 lh-title">{{ $t('home.title') }}</h1>
           <h2
-            class="fw8 f1-l white mt3 mb4 lh-title"
+            class="fw8 f1-l white mt3 mb4 lh-title ttc"
             v-html="$t('home.date')"
           ></h2>
           <h2
-            class="fw8 f1-l white mt3 mb4 lh-title"
+            class="fw8 f1-l white mt3 mb4 lh-title ttc"
             v-html="$t('home.location')"
           ></h2>
         </div>

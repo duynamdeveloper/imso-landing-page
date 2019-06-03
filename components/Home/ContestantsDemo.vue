@@ -1,7 +1,7 @@
 <template>
   <section
     class="bg-midnightblue white false bb b--black-10 flex flex-column flex-row-l items-stretch justify-stretch"
-    id="contestants"
+    id="contestant"
   >
     <div class="flex w-50-l items-center justify-center false pa5-l pa4"><img
         class="luminous"

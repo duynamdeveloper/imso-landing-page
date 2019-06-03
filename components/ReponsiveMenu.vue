@@ -2,7 +2,7 @@
   <nav
     id="site-navigation"
     aria-label="Menu"
-    class="z-5"
+    class="z-5 h4-l"
   >
     <label
       for="toggle-mobile-menu"
@@ -27,16 +27,24 @@
           v-scroll-to="`#${index}`"
         >{{ item }}</a>
       </li>
+      <language-picker />
 
-      <li>
-        <a
-          class="f5 hover-white no-underline white dib ml2 pv2 ph3 ba b"
-          href="/"
-        >Sign Up</a>
-      </li>
     </ul>
+
   </nav>
 </template>
+<script>
+import LanguagePicker from '~/components/LanguagePicker'
+export default {
+  components: { LanguagePicker },
+  data() {
+    return {
+      lang: 'en'
+    }
+  }
+}
+</script>
+
 <style>
 #site-navigation {
   display: block;
@@ -80,9 +88,6 @@
 }
 
 @media only screen and (min-device-width: 768px) {
-  #site-navigation {
-    height: auto;
-  }
   #site-navigation #main-menu {
     display: block;
   }

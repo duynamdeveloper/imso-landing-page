@@ -4,7 +4,7 @@
       <div class="aspect-ratio aspect-ratio--9x16 mb2">
         <div
           class="aspect-ratio--object cover"
-          style="background:url('imso_logo_white_3x5.png') center;"
+          style="background:url('/imso_logo_white_3x5.png') center;"
         ></div>
       </div>
 
@@ -14,22 +14,16 @@
 
     <div class="tc mt3">
       <a
-        href="/language/"
-        title="Language"
-        class="f6 dib ph2 link gray dim"
-      >Language</a>
-      <a
-        href="/terms/"
-        title="Terms"
-        class="f6 dib ph2 link gray dim"
-      >Terms of Use</a>
-      <a
-        href="/privacy/"
-        title="Privacy"
-        class="f6 dib ph2 link gray dim"
-      >Privacy</a>
+        v-for="(item,index) in $t('navbar')"
+        :key="index"
+        href="#"
+        v-scroll-to="`#${index}`"
+        :title="item"
+        class="f6 dib ph2 link gray dim ttc"
+      >{{item}}</a>
+
     </div>
-    <small class="f6 db tc gray pv2">© 2019 <b class="ttc">{{$t("common.hanoi_education_department")}}</b>., All Rights Reserved</small>
+    <small class="f6 db tc gray pv2">© 2019 <b class="ttc">{{$t("common.hanoi_education_department")}}</b>, All Rights Reserved</small>
   </footer>
 </template>
 
