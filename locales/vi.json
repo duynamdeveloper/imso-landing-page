@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Kỳ thi toán quốc tế IMSO",
+    "date": "Ngày 27 - 30 tháng 11 năm 2019",
+    "location": "Hà Nội, Việt Nam"
+  },
+  "timer": {
+    "day": "ngày",
+    "hour": "giờ",
+    "minute": "phút",
+    "second": "giây"
+  }
+}

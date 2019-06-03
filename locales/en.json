@@ -1,0 +1,205 @@
+{
+  "navbar": {
+    "objective": "ojective",
+    "contestant": "contestant",
+    "regulation": "regulation",
+    "prize": "prize",
+    "agenda": "proposed agenda",
+    "gallery": "gallery"
+  },
+  "common": {
+    "contestants": "Contestants",
+    "officials": "officials",
+    "mathematics": "mathematics",
+    "science": "science",
+    "duration": "duration",
+    "short_answer": "short answer",
+    "essay": "Essay",
+    "exploration": "exploration",
+    "theoretical": "theoretical",
+    "experiment": "experiment",
+    "minutes": "minutes",
+    "title": "International Mathematics and Science Olympiad",
+    "hanoi_education_department": "Hanoi Department of Education and Training"
+  },
+  "home": {
+    "title": "International Mathematics and Science Olympiad",
+    "date": "November, 27<sup>th</27></sup> - 30<sup>th</sup>, 2019",
+    "location": "Hanoi, Vietnam",
+    "objectives": {
+      "title": "objectives",
+      "subtitle": "IMSO 2019 aims to provide opportunities to:",
+      "content": [
+        "To allow primary school students from various countries developed the ability in mathematics and science at full potential.",
+        "To create an academic atmosphere, encourages innovation, research development and academic progress.",
+        "To create a network of cooperation in the development of teaching and learning of mathematics and science with international educational organizations.",
+        "To disseminate international cultural exchanges and strengthen the relationship between teachers and students."
+      ]
+    },
+    "contestants_officials": {
+      "title": "contestants and officials",
+      "contestants": [
+        "The participants of the Olympiad are grade V, VI and<strong class='red'> not older than 13 years of age before 26 November 2019</strong>. Participants should be chosen through a selection process. Each country is entitled to send 12 students, 6 students for each subject.",
+        "Former host countries and IMSO board members will be able to send a maximum of 12 participants for Math and 12 participants for Science."
+      ],
+      "officials": [
+        "Each country is entitled to send 3 officials consists of 1 team leader and 2 tutors/trainers.",
+        "Team leader should have the ability to communicate in English.",
+        "Tutors should be master in the substance of primary school Mathematics and Science and have the ability to communicate in English.",
+        "Tutor will work with the Juries in moderating on students’ paper and determining winners."
+      ]
+    },
+    "medals_trophies": {
+      "title": "medals and trophies",
+      "content": [
+        "Approximately two - thirds of contestants will be awarded gold, silver and bronze medals in the ratio of 1 : 2 : 3. Other contestants will receive a certificate of participation.",
+        "Trophies will be awarded to contestants with the highest score in Theoretical and Exploration or Experiment, as well as for the highest overall score in each subject.",
+        "Appreciation Certificates will be presented to all members of: IMSO Executive Council, Juries, Teachers / Tutors, Officials that participated in IMSO 2019.",
+        "Every contestant who attended IMSO 2019 will receive a certificate of participation."
+      ]
+    },
+    "regulations": {
+      "title": "regulations",
+      "content": "<p><b>IMSO</b> is an Individual Competition. The problems consist of two parts for each subject.</p><ul><li>Theoretical and exploration problems for Mathematics;</li><li>Theoretical and experimental problems for Science;</li></ul><p></p>The problems are constructed based on Mathematics and Science elementary school curricula, reference books, and other relevant sources which cover intellectual reasoning and creativity.",
+      "table": "<table><thead><tr><th>Test</th><th>Mathematics</th><th>Science</th><th>Duration</th></tr></thead><tbody><tr><td>Test 1</td><td>Short Answer</td><td>Theoretical 1</td><td>60 minutes</td></tr><tbody></table>"
+    },
+    "proposed_agenda": {
+      "title": "Proposed Agenda",
+      "timeline": {
+        "time": {
+          "all_day": "All Day",
+          "morning": "Morning",
+          "afternoon": "Afternoon",
+          "night": "Night",
+          "day1": "Day 1 <br/>Tuesday, November 26<sup>th</sup>",
+          "day2": "Day 2 <br/>Wednesday, November 27<sup>th</sup>",
+          "day3": "Day 3 <br/>Thursday, November 28<sup>th</sup>",
+          "day4": "Day 4 <br/>Friday, November 29<sup>th</sup>",
+          "day5": "Day 5 <br/>Saturday, November 30<sup>th</sup>",
+          "day6": "Day 6 <br/>Sunday, December 01<sup>th</sup>"
+        },
+        "contestant": {
+          "day1": {
+            "content_1": "Arrival Welcome"
+          },
+          "day2": {
+            "content_1": "Opening Ceremony",
+            "content_2": "Orientation"
+          },
+          "day3": {
+            "content_1": "Theory Test 1",
+            "content_2": "Theory Test 2"
+          },
+          "day4": {
+            "content_1": "Exploration / Experiment Test",
+            "content_2": "Free Time",
+            "content_3": "Cultural Night"
+          },
+          "day5": {
+            "content_1": "City Tour",
+            "content_2": "Awarding Ceremony"
+          },
+          "day6": {
+            "content_1": "Home Sweet Home"
+          }
+        },
+        "official": {
+          "day1": {
+            "content_1": "Arrival Welcome"
+          },
+          "day2": {
+            "content_1": "Opening Ceremony",
+            "content_2": "Technical Meeting"
+          },
+          "day3": {
+            "content_1": "City Tour",
+            "content_2": "City Tour"
+          },
+          "day4": {
+            "content_1": "Grading Moderation",
+            "content_2": "Grading Moderation",
+            "content_3": "Cultural Night"
+          },
+          "day5": {
+            "content_1": "City Tour",
+            "content_2": "Awarding Ceremony"
+          },
+          "day6": {
+            "content_1": "Home Sweet Home"
+          }
+        }
+      },
+      "table": {
+        "title": {
+          "date": "date",
+          "time": "time",
+          "contestants": "contestants",
+          "officials": "officials"
+        },
+        "rows": [
+          {
+            "key": "1",
+            "class": "white",
+            "content": "<td class='tl b pa3'>Day 1: Tuesday <br/>26/11/2019 </td><td>All day</td> <td colspan='2' class='tc'>Arrival Welcome</td>"
+          },
+          {
+            "key": "2",
+            "class": "white",
+            "content": "<td class='tl b white pa3' rowspan='2'>Day 2: Wednesday <br/>27/11/2019 </td><td>Morning</td> <td colspan='2' class='tc'>Opening Ceremony</td>"
+          },
+          {
+            "key": "3",
+            "class": "white",
+            "content": "<td>Afternoon</td> <td class='tc'>Orientation</td><td class='tc'>Technical Meeting</td>"
+          },
+          {
+            "key": "4",
+            "class": "white",
+            "content": "<td class='tl b pa3' rowspan='2'>Day 3: Thursday <br/>28/11/2019 </td><td>Morning</td> <td class='tc'>Theory Test 1</td><td class='tc'>City Tour</td>"
+          },
+          {
+            "key": "5",
+            "class": "white",
+            "content": "<td>Afternoon</td> <td class='tc'>Theory Test 2</td><td class='tc'>City Tour</td>"
+          },
+          {
+            "key": "6",
+            "class": "white",
+            "content": "<td class='tl b pa3' rowspan='3'>Day 4: Friday <br/>29/11/2019 </td><td>Morning</td> <td class='tc'>Exploration/Experiment Test</td><td class='tc'>Grading Moderation</td>"
+          },
+          {
+            "key": "7",
+            "class": "white f4",
+            "content": "<td>Afternoon</td> <td class='tc'>Free time</td><td class='tc'>Grading Moderation</td>"
+          },
+          {
+            "key": "8",
+            "class": "white",
+            "content": "<td>Night</td> <td class='tc' colspan='2'>Cultural Night</td>"
+          },
+          {
+            "key": "9",
+            "class": "white",
+            "content": "<td class='tl b pa3' rowspan='2'>Day 5: Saturday <br/>30/11/2019 </td><td>Morning</td><td class='tc' colspan='2'>City Tour</td>"
+          },
+          {
+            "key": "10",
+            "class": "white",
+            "content": "<td>Afternoon</td><td class='tc' colspan='2'>Awarding Ceremony</td>"
+          },
+          {
+            "key": "11",
+            "class": "white",
+            "content": "<td class='tl b pa3' >Day 6: Sunday <br/>1/12/2019 </td><td colspan='3' class='tc'>Home Sweet Home</td>"
+          }
+        ]
+      }
+    }
+  },
+  "timer": {
+    "day": "day",
+    "hour": "hour",
+    "minute": "minute",
+    "second": "second"
+  }
+}
