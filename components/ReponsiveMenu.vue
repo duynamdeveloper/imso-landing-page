@@ -27,7 +27,6 @@
           v-scroll-to="`#${index}`"
         >{{ item }}</a>
       </li>
-      <language-picker />
 
     </ul>
 

@@ -19,7 +19,7 @@
         >
           <div class="pointer"><img
               class="db w-100 grow"
-              :src="thumb.url"
+              :src="$axios.defaults.baseURL+thumb.url"
               @click="index = thumbIndex"
             /></div>
         </div>

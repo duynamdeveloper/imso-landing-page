@@ -1,8 +1,15 @@
 import pkg from './package'
-
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/imso-landing-page/'
+        }
+      }
+    : {}
 export default {
-  mode: 'universal',
-
+  mode: 'spa',
+  ...routerBase,
   /*
    ** Headers of the page
    */
@@ -16,9 +23,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
-  router: {
-    middleware: 'i18n'
-  },
+  // router: {
+  //   middleware: 'i18n'
+  // },
   /*
    ** Customize the progress-bar color
    */

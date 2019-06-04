@@ -4,7 +4,7 @@
       <div class="aspect-ratio aspect-ratio--9x16 mb2">
         <div
           class="aspect-ratio--object cover"
-          style="background:url('/imso_logo_white_3x5.png') center;"
+          :style="`background:url(${$axios.defaults.baseURL}imso_logo_white_3x5.png) center;`"
         ></div>
       </div>
 
@@ -13,6 +13,12 @@
     <h2 class="tc white ttu lh-title f3-ns">16<sup>th</sup> {{$t("common.title")}}</h2>
 
     <div class="tc mt3">
+      <a
+        href="javascript:void(0)"
+        class="f6 dib ph2 link gray dim ttc"
+      >
+        <language-picker /></a>
+
       <a
         v-for="(item,index) in $t('navbar')"
         :key="index"
@@ -28,7 +34,10 @@
 </template>
 
 <script>
-export default {}
+import LanguagePicker from '~/components/LanguagePicker'
+export default {
+  components: { LanguagePicker }
+}
 </script>
 
 <style>

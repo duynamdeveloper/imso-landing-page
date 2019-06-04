@@ -5,7 +5,7 @@
   >
     <div class="flex w-50-l items-center justify-center false pa5-l pa4"><img
         class="luminous"
-        src="/contestants_bg.jpg"
+        :src="`${$axios.defaults.baseURL}contestants_bg.jpg`"
       >
     </div>
     <div class=" pa5-ns flex w-50-l items-center content-start justify-center-ns justify-start false">

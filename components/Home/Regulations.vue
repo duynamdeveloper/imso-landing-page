@@ -49,7 +49,7 @@
     <div class="flex w-50-l items-center justify-center false pa5-l pa4"><img
         class="luminous"
         alt="showing the status page of urlbox.io"
-        src="/regulations_bg.jpg"
+        :src="`${$axios.defaults.baseURL}regulations_bg.jpg`"
       >
     </div>
   </section>

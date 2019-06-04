@@ -22,7 +22,7 @@
       </div>
       <div class="db dtc-ns v-mid-ns mw7">
         <img
-          src="/5V2A0101.JPG"
+          :src="`${$axios.defaults.baseURL}/5V2A0101.JPG`"
           alt="A bright blue sky"
           class="w-90"
         >

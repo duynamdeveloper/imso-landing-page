@@ -13,7 +13,7 @@
             >
               <img
                 class="link white-90 hover-white"
-                src="/imso_logo_white.png"
+                :src="`${$axios.defaults.baseURL}imso_logo_white.png`"
                 alt="IMSO 2019 Logo"
                 title="IMSO 2019"
               />

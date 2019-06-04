@@ -3,7 +3,25 @@
     <nuxt />
   </div>
 </template>
-
+<script>
+export default {
+  mounted() {
+    this.init()
+  },
+  methods: {
+    async init() {
+      await this.detectLocale()
+    },
+    async detectLocale() {
+      await this.$axios.get('http://ip-api.com/json').then(res => {
+        res.data.countryCode === 'VN'
+          ? (this.$i18n.locale = 'vi')
+          : (this.$i18n.locale = 'en')
+      })
+    }
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
