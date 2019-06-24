@@ -27,8 +27,8 @@
           v-scroll-to="`#${index}`"
         >{{ item }}</a>
       </li>
-      <language-picker />
-
+      
+ <!-- <language-picker /> -->
     </ul>
 
   </nav>
@@ -46,6 +46,13 @@ export default {
 </script>
 
 <style>
+@media only screen and (max-width: 600px) {
+  #main-menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
 #site-navigation {
   display: block;
   height: 48px;

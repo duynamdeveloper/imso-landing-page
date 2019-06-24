@@ -24,7 +24,7 @@
   },
   "home": {
     "title": "International Mathematics and Science Olympiad",
-    "date": "November, 27<sup>th</27></sup> - 30<sup>th</sup>, 2019",
+    "date": "November, 26<sup>th</sup> - Decemeber, 01<sup>st</sup>, 2019",
     "location": "Hanoi, Vietnam",
     "objectives": {
       "title": "objectives",
@@ -63,6 +63,15 @@
       "content": "<p><b>IMSO</b> is an Individual Competition. The problems consist of two parts for each subject.</p><ul><li>Theoretical and exploration problems for Mathematics;</li><li>Theoretical and experimental problems for Science;</li></ul><p></p>The problems are constructed based on Mathematics and Science elementary school curricula, reference books, and other relevant sources which cover intellectual reasoning and creativity.",
       "table": "<table><thead><tr><th>Test</th><th>Mathematics</th><th>Science</th><th>Duration</th></tr></thead><tbody><tr><td>Test 1</td><td>Short Answer</td><td>Theoretical 1</td><td>60 minutes</td></tr><tbody></table>"
     },
+    "timelines":{
+      "title":"important timelines",
+      "content" : [
+        "Confirmation of the participation : Participating Teams will confirm the participation via email: registration@imso.vn<strong> no later than 15 th August 2019.<strong>",
+        "Submission of participation details: <strong>No later than 30 th September 2019</strong>",
+        "Submission of Proposed Problems: Each participating delegation is expected to submit a maximum of 10 proposed problems with solutions for each subject (Math and Science) <strong>no later than 15th September 2019</strong>. The proposed problems and solutions should be encoded in English language and submitted via email: juries@imso.vn",
+        "Submission of flight details:<strong> No later than 30 th October 2019.</strong>"
+      ]
+    },
     "proposed_agenda": {
       "title": "Proposed Agenda",
       "timeline": {
@@ -76,7 +85,7 @@
           "day3": "Day 3 <br/>Thursday, November 28<sup>th</sup>",
           "day4": "Day 4 <br/>Friday, November 29<sup>th</sup>",
           "day5": "Day 5 <br/>Saturday, November 30<sup>th</sup>",
-          "day6": "Day 6 <br/>Sunday, December 01<sup>th</sup>"
+          "day6": "Day 6 <br/>Sunday, December 01<sup>st</sup>"
         },
         "contestant": {
           "day1": {
@@ -197,9 +206,9 @@
     }
   },
   "timer": {
-    "day": "day",
-    "hour": "hour",
-    "minute": "minute",
-    "second": "second"
+    "day": "days",
+    "hour": "hours",
+    "minute": "minutes",
+    "second": "seconds"
   }
 }

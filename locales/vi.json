@@ -62,6 +62,15 @@
       "title": "quy định",
       "content": "<p><b>IMSO</b> là một cuộc thi cá nhân. Bài thi bao gồm hai phần cho mỗi môn học.</p><ul><li>Lý thuyết và thực hành đối với môn Toán học;</li><li>Lý thuyết và thực nghiệm vấn đề đối với môn Khoa học;</li></ul><p></p>Các vấn đề được xây dựng dựa trên chương trình giảng dạy tiểu học môn Toán và Khoa học, sách tham khảo và các nguồn tài liệu liên quan khác bao gồm lý luận trí tuệ và sáng tạo."
     },
+    "timelines":{
+      "title":"các mốc thời gian quan trọng",
+      "content" : [
+        "Xác nhận tham dự: Các đội cần xác nhận tham dự qua email: registration@imso.vn trước ngày <strong>15/08/2019<strong>",
+        "Gửi danh sách chi tiết: Trước ngày <strong>30/9/2019</strong>.",
+        "Gửi đề đề xuất: Mỗi đội sẽ gửi 10 câu hỏi đề xuất mỗi môn (Toán và Khoa học) kèm theo lời giải chi tiết trước ngày <strong>15/09/2019</strong>. Câu hỏi đề xuất và lời giải chi tiết phải làm bằng tiếng Anh và gửi đến email: juries@imso.vn",
+        "Gửi thông tin chuyến bay: Trước ngày <strong>30/10/2019</strong>."
+      ]
+    },
     "proposed_agenda": {
       "title": "Lịch trình",
       "timeline": {

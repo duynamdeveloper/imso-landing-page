@@ -5,6 +5,7 @@
     <contestants-demo />
     <regulations />
     <medals-and-trophies />
+    <timelines/>
     <proposed-agenda />
     <gallery />
     <vue-footer />
@@ -16,6 +17,7 @@ import Logo from '~/components/Logo.vue'
 import LandingHeader from '~/components/Header/LandingHeader.vue'
 import Objectives from '~/components/Home/Objectives.vue'
 import ProposedAgenda from '~/components/Home/ProposedAgenda.vue'
+import Timelines from '~/components/Home/Timelines.vue'
 import ContestantsAndOfficials from '~/components/Home/ContestantsAndOfficials'
 import ContestantsDemo from '~/components/Home/ContestantsDemo'
 import Regulations from '~/components/Home/Regulations'
@@ -30,6 +32,7 @@ export default {
     Objectives,
     ProposedAgenda,
     ContestantsAndOfficials,
+    Timelines,
     Regulations,
     ContestantsDemo,
     MedalsAndTrophies,

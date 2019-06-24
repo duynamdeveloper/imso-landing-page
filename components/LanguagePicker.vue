@@ -1,25 +1,61 @@
 <template>
-  <ul
-    class="languagepicker roundborders bg-white-80"
-    style="width: 10rem"
-  >
-    <NuxtLink :to="`/en` + $route.fullPath">
-      <li class="black"><img
-          class="v-mid"
-          src="/en_flag.svg"
-          width="15%"
-        />English</li>
-    </NuxtLink>
-    <NuxtLink :to="`/en` + $route.fullPath">
-      <li><img
-          class="v-mid"
-          src="/vi_flag.svg"
-          width="15%"
-        />Tiếng Việt</li>
-    </NuxtLink>
-  </ul>
+
+<div class="dib bg-white hide-child bg-animate relative-m relative-l w-100 w-auto-ns">
+      <a href="#" class="dt nav tc no-underline pa1 ph4 dark-gray w-100">
+          <img :src="`/${locale.flag}`" class="dtc v-mid" width="30px" height="30px">
+          <span class="dtc tl v-mid pl2">{{ locale.label }}</span>
+      </a>
+      <ul class="menu list mt1 bg-white b-yellow f6 child child-vs o-100-vs absolute-m absolute-l top-100-m w-100 br2 shadow-4 pa1" style="left: 0">
+        <li class="ma1 pa1 ph3 bg-animate hover-bg-gray pointer w-100" style="display: table" @click="changeLanguage('en')">
+      
+          <img src="/en_flag.svg" class="dtc v-mid" width="25px" height="25px">
+          <span class="dtc tl v-mid">English</span>
+         
+        </li>
+        <li class="ma1 pa1 ph3 bg-animate hover-bg-gray pointer w-100" style="display: table"  @click="changeLanguage('vi')">
+          <img src="/vi_flag.svg" class="dtc v-mid" width="25px" height="25px">
+          <span class="dtc tl v-mid">Tiếng Việt</span>
+        </li>
+      </ul>
+    </div>
 </template>
+<script>
+export default {
+  data(){
+    return{
+      locale:{
+        lang: 'vi',
+        label: 'Việt Nam',
+        flag: 'vi_flag.svg'
+      }
+    }
+    
+  },
+  methods:{
+    changeLanguage(lang){
+      if(lang == 'en'){
+        this.locale.lang = 'en'
+        this.locale.label = 'English'
+        this.locale.flag = 'en_flag.svg'
+        this.$store.commit('SET_LANG', lang)
+        this.$i18n.locale = lang
+      }
+      if(lang == 'vi'){
+       this.$store.commit('SET_LANG', lang)
+        this.locale.lang = 'vi'
+        this.locale.label = 'Tiếng Việt'
+        this.locale.flag = 'vi_flag.svg'
+        this.$i18n.locale = lang
+      }
+    }
+  }
+ 
+ 
+}
+</script>
+
 <style>
+
 .languagepicker {
   display: inline-block;
   padding: 0;
